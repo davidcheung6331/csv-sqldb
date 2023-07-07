@@ -28,7 +28,7 @@ hide_menu_style = """
         """
 
 st.markdown(hide_menu_style, unsafe_allow_html=True)
-image = Image.open("customer-services.png")
+image = Image.open("customer-services.jpg")
 st.image(image, caption='created by MJ')
 
 
